@@ -3,66 +3,107 @@
 
 <head>
 	<title>Главная</title>
-	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20220915161721">
-	<link rel="shortcut icon" href="favicon.ico">
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20220916152224" />
+	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css?_v=20220916152224" rel="stylesheet" />
 </head>
 
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<div class="header__container">
+			<div class="header__container container">
+				<div class="header__inner">
+					<a class="header__logo" href="#">
+						<img class="header__logo-img" src="img/header-logo.svg?_v=1663338144627" alt="picture" />
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item menu__item_card">
+									<a href="" class="menu__link">Order a card</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link">About us</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link">Buy crypto</a>
+								</li>
 
+								<li class="menu__item">
+									<a href="" class="menu__link">Ecosystem</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link">Features</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__actions">
+						<a href="#" class="header__action">
+							<img src="img/user.svg?_v=1663338144627" alt="" />
+						</a>
+						<a href="#" class="header__action">
+							<img src="img/info.svg?_v=1663338144627" alt="" />
+						</a>
+						<button type="button" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
 			</div>
 		</header>
+
 		<main class="page">
 			<section class="page__main main">
 				<div class="main__container">
 					<div class="main__content">
-						<h1 data-da=".main__container,992,2" class="main__title">
+						<h1 data-da=".main__container,992,2" data-aos="fade-right" class="main__title">
 							OWNR WALLET Partner Program
 						</h1>
-						<p class="main__text">
+						<p data-aos="fade-right" class="main__text">
 							Take part in the CPA system, or just recommend us to your
 							friends and receive a lifetime passive income of up to 38% of
 							the company's net profit.
 						</p>
 						<div class="main__button-block button-block">
-							<a href="#" class="main__button button button_pink button_mov"><span>Start earning</span></a>
+							<a href="#" data-aos="fade-right" class="main__button button button_pink button_mov"><span>Start earning</span></a>
 						</div>
 					</div>
-					<div class="main__image-ibg_contain">
-						<picture><source srcset="img/main.webp" type="image/webp"><img src="img/main.png?_v=1663255041422" alt="Main Image" /></picture>
+					<div data-aos="fade-left" class="main__image-ibg_contain image-jump">
+						<picture><source srcset="img/main.webp" type="image/webp"><img src="img/main.png?_v=1663338144627" alt="Main Image" /></picture>
 					</div>
 				</div>
 			</section>
 			<section class="page__start start">
 				<div class="start__container">
 					<div class="start__body">
-						<div class="start__image-ibg_contain">
-							<picture><source srcset="img/start-min.webp" type="image/webp"><img src="img/start-min.png?_v=1663255041422" alt="" /></picture>
+						<div data-aos="fade-right" class="start__image-ibg_contain image-jump">
+							<picture><source srcset="img/start-min.webp" type="image/webp"><img src="img/start-min.png?_v=1663338144627" alt="" /></picture>
 						</div>
 						<div class="start__content">
-							<h2 class="start__title title">How to start earning</h2>
+							<h2 data-aos="fade-left" class="start__title title">
+								How to start earning
+							</h2>
 							<div class="start__text">
-								<p>
+								<p data-aos="fade-left">
 									Create a stable and profitable source of passive crypt
 									income together with OWNR WALLET. Become a partner of the
 									CPA system, place advertising materials on the web, or
 									invite friends, acquaintances or subscribers in a few
 									clicks.
 								</p>
-								<p>
+								<p data-aos="fade-left">
 									The more people you engage, the higher the earnings! Track
 									the actions users perform and how your affiliate account is
 									replenished in plain view. Withdraw your reward monthly.
 								</p>
 							</div>
 							<div class="start__button-block button-block">
-								<a href="#" class="start__button button button_pink button_mov"><span>I want to get passive income!</span></a>
+								<a data-aos="fade-left" href="#" class="start__button button button_pink button_mov"><span>I want to get passive income!</span></a>
 							</div>
 						</div>
 					</div>
@@ -70,13 +111,13 @@
 			</section>
 			<section class="page__facilities facilities">
 				<div class="facilities__container">
-					<h2 class="facilities__title title">
+					<h2 data-aos="fade-up" class="facilities__title title">
 						Who can earn money on the OWNR affiliate program?
 					</h2>
-					<div class="facilities__items">
+					<div data-aos="fade-up" class="facilities__items">
 						<div class="facilities__item item-facilities">
-							<div class="item-facilities__image">
-								<img src="img/facilities/01.svg?_v=1663255041422" alt="" />
+							<div class="item-facilities__image image-scale">
+								<img src="img/facilities/01.svg?_v=1663338144627" alt="" />
 							</div>
 							<div class="item-facilities__body">
 								<h3 class="item-facilities__title">
@@ -90,8 +131,8 @@
 						</div>
 
 						<div class="facilities__item item-facilities">
-							<div class="item-facilities__image">
-								<img src="img/facilities/02.svg?_v=1663255041422" alt="" />
+							<div class="item-facilities__image image-scale">
+								<img src="img/facilities/02.svg?_v=1663338144627" alt="" />
 							</div>
 							<div class="item-facilities__body">
 								<h3 class="item-facilities__title">
@@ -104,8 +145,8 @@
 							</div>
 						</div>
 						<div class="facilities__item item-facilities">
-							<div class="item-facilities__image">
-								<img src="img/facilities/03.svg?_v=1663255041422" alt="" />
+							<div class="item-facilities__image image-scale">
+								<img src="img/facilities/03.svg?_v=1663338144627" alt="" />
 							</div>
 							<div class="item-facilities__body">
 								<h3 class="item-facilities__title">
@@ -118,8 +159,8 @@
 							</div>
 						</div>
 						<div class="facilities__item item-facilities">
-							<div class="item-facilities__image">
-								<img src="img/facilities/04.svg?_v=1663255041422" alt="" />
+							<div class="item-facilities__image image-scale">
+								<img src="img/facilities/04.svg?_v=1663338144627" alt="" />
 							</div>
 							<div class="item-facilities__body">
 								<h3 class="item-facilities__title">Sociable people</h3>
@@ -134,17 +175,17 @@
 			</section>
 			<section class="page__benefits benefits">
 				<div class="benefits__container">
-					<div class="benefits__image-ibg_contain">
-						<picture><source srcset="img/benefits-min.webp" type="image/webp"><img src="img/benefits-min.png?_v=1663255041422" alt="benefits" /></picture>
+					<div data-aos="fade-right" class="benefits__image-ibg_contain image-jump">
+						<picture><source srcset="img/benefits-min.webp" type="image/webp"><img src="img/benefits-min.png?_v=1663338144627" alt="benefits" /></picture>
 					</div>
 					<div class="benefits__content">
-						<h2 class="benefits__title title">
+						<h2 data-aos="fade-left" class="benefits__title title">
 							Benefits of participating in the affiliate program
 						</h2>
 						<ul class="benefits__items">
-							<li class="benefits__item item-benefit">
+							<li data-aos="fade-left" class="benefits__item item-benefit">
 								<div class="item-benefit__icon">
-									<img src="img/benefits/01-min.svg?_v=1663255041422" alt="" />
+									<img src="img/benefits/01-min.svg?_v=1663338144627" alt="" />
 								</div>
 								<div class="item-benefit__body">
 									<h3 class="item-benefit__title">Effortless income</h3>
@@ -154,9 +195,9 @@
 									</p>
 								</div>
 							</li>
-							<li class="benefits__item item-benefit">
+							<li data-aos="fade-left" class="benefits__item item-benefit">
 								<div class="item-benefit__icon">
-									<img src="img/benefits/02-min.svg?_v=1663255041422" alt="" />
+									<img src="img/benefits/02-min.svg?_v=1663338144627" alt="" />
 								</div>
 								<div class="item-benefit__body">
 									<h3 class="item-benefit__title">100% transparency</h3>
@@ -166,9 +207,9 @@
 									</p>
 								</div>
 							</li>
-							<li class="benefits__item item-benefit">
+							<li data-aos="fade-left" class="benefits__item item-benefit">
 								<div class="item-benefit__icon">
-									<img src="img/benefits/03-min.svg?_v=1663255041422" alt="" />
+									<img src="img/benefits/03-min.svg?_v=1663338144627" alt="" />
 								</div>
 								<div class="item-benefit__body">
 									<h3 class="item-benefit__title">Effortless income</h3>
@@ -178,9 +219,9 @@
 									</p>
 								</div>
 							</li>
-							<li class="benefits__item item-benefit">
+							<li data-aos="fade-left" class="benefits__item item-benefit">
 								<div class="item-benefit__icon">
-									<img src="img/benefits/04-min.svg?_v=1663255041422" alt="" />
+									<img src="img/benefits/04-min.svg?_v=1663338144627" alt="" />
 								</div>
 								<div class="item-benefit__body">
 									<h3 class="item-benefit__title">
@@ -198,17 +239,17 @@
 			</section>
 			<section class="page__options options">
 				<div class="options__container">
-					<h2 class="options__title title">
+					<h2 data-aos="fade-up" class="options__title title">
 						Earning options with OWNR WALLET
 					</h2>
-					<p class="options__subtitle subtitle">
+					<p data-aos="fade-up" class="options__subtitle subtitle">
 						Choose the appropriate way to monetize the project, traffic or
 						subscriber base, or combine several formats at once
 					</p>
-					<div class="options__items">
+					<div data-aos="fade-up" class="options__items">
 						<div class="options__item item-option">
 							<div class="item-option__image">
-								<img src="img/options/01.svg?_v=1663255041422" alt="" />
+								<img src="img/options/01.svg?_v=1663338144627" alt="" />
 							</div>
 							<h3 class="item-option__title">CPA system</h3>
 							<div class="item-option__subtitle">
@@ -240,7 +281,7 @@
 						</div>
 						<div class="options__item item-option">
 							<div class="item-option__image">
-								<img src="img/options/02.svg?_v=1663255041422" alt="" />
+								<img src="img/options/02.svg?_v=1663338144627" alt="" />
 							</div>
 							<h3 class="item-option__title">Attracting affiliates</h3>
 							<div class="item-option__subtitle">
@@ -273,20 +314,24 @@
 			</section>
 			<section class="page__reward reward">
 				<div class="reward__container">
-					<div class="reward__image">
-						<picture><source srcset="img/reward.webp" type="image/webp"><img src="img/reward.png?_v=1663255041422" alt="reward" /></picture>
+					<div data-aos="fade-up" class="reward__image">
+						<picture><source srcset="img/reward.webp" type="image/webp"><img src="img/reward.png?_v=1663338144627" alt="reward" /></picture>
 					</div>
-					<h2 class="reward__title title">How to get the first reward</h2>
-					<p class="reward__subtitle subtitle">Start earning right now!</p>
+					<h2 data-aos="fade-up" class="reward__title title">
+						How to get the first reward
+					</h2>
+					<p data-aos="fade-up" class="reward__subtitle subtitle">
+						Start earning right now!
+					</p>
 
 					<div class="reward__items">
-						<div class="reward__item item-reward">
+						<div data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000" class="reward__item item-reward">
 							<div class="item-reward__number">1</div>
 							<p class="item-reward__text">
 								Sign in the CPA system as a partner in 3 steps
 							</p>
 						</div>
-						<div class="reward__item item-reward">
+						<div data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000" class="reward__item item-reward">
 							<div class="item-reward__number">2</div>
 							<p class="item-reward__text">
 								Add the project to the system, select advertising materials
@@ -294,7 +339,7 @@
 								company's net income
 							</p>
 						</div>
-						<div class="reward__item item-reward">
+						<div data-aos="fade-right" data-aos-delay="250" data-aos-duration="1000" class="reward__item item-reward">
 							<div class="item-reward__number">3</div>
 							<p class="item-reward__text">
 								Generate an anonymous referral link as well. Use it to start
@@ -302,7 +347,7 @@
 								earnings
 							</p>
 						</div>
-						<div class="reward__item item-reward">
+						<div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="350" class="reward__item item-reward">
 							<div class="item-reward__number">4</div>
 							<p class="item-reward__text">
 								Get commissions for the actions of engaged people and withdraw
@@ -311,20 +356,20 @@
 						</div>
 					</div>
 					<div class="reward__button-block button-block">
-						<a href="#" class="reward__button button button_pink button_mov"><span>Get your first income</span></a>
+						<a data-aos="fade-up" href="#" class="reward__button button button_pink button_mov"><span>Get your first income</span></a>
 					</div>
 				</div>
 			</section>
 			<section class="page__income income">
 				<div class="income__container">
-					<h2 class="income__title title">
+					<h2 data-aos="fade-up" class="income__title title">
 						Passive income in a crypto partner system every day
 					</h2>
-					<p class="income__subtitle subtitle">
+					<p data-aos="fade-up" class="income__subtitle subtitle">
 						Rewards are awarded for user actions:
 					</p>
 
-					<div class="income__table table-income">
+					<div data-aos="fade-left" class="income__table table-income">
 						<div class="table-income__titles">
 							<p class="table-income__title">Action</p>
 							<p class="table-income__title">Conditions</p>
@@ -380,9 +425,9 @@
 							</li>
 						</ul>
 					</div>
-					<div class="income__details-file details-file">
+					<div data-aos="fade-right" class="income__details-file details-file">
 						<div class="details-file__icon">
-							<img src="img/PDF-min.svg?_v=1663255041422" alt="PDF" />
+							<img src="img/PDF-min.svg?_v=1663338144627" alt="PDF" />
 						</div>
 						<p class="details-file__text">
 							See the detailed terms and description of the affiliate program
@@ -394,11 +439,13 @@
 			</section>
 			<section class="page__payots payots">
 				<div class="payots__container">
-					<h2 class="payots__title title">Lifetime payouts</h2>
+					<h2 data-aos="fade-up" class="payots__title title">
+						Lifetime payouts
+					</h2>
 					<div class="payots__items">
-						<div class="payots__item item-payots">
+						<div data-aos="fade-up-right" class="payots__item item-payots">
 							<div class="item-payots__image">
-								<picture><source srcset="img/payots/01-min.webp" type="image/webp"><img src="img/payots/01-min.png?_v=1663255041422" alt="" /></picture>
+								<picture><source srcset="img/payots/01-min.webp" type="image/webp"><img src="img/payots/01-min.png?_v=1663338144627" alt="" /></picture>
 							</div>
 							<div class="item-payots__content">
 								<h3 class="item-payots__title">
@@ -410,9 +457,9 @@
 							</div>
 							<a href="#" class="item-payots__button button button_border">Learn More</a>
 						</div>
-						<div class="payots__item item-payots">
+						<div data-aos="fade-up-left" class="payots__item item-payots">
 							<div class="item-payots__image">
-								<picture><source srcset="img/payots/02-min.webp" type="image/webp"><img src="img/payots/02-min.png?_v=1663255041422" alt="" /></picture>
+								<picture><source srcset="img/payots/02-min.webp" type="image/webp"><img src="img/payots/02-min.png?_v=1663338144627" alt="" /></picture>
 							</div>
 							<div class="item-payots__content">
 								<h3 class="item-payots__title">
@@ -429,16 +476,18 @@
 			</section>
 			<section class="page__example example">
 				<div class="example__container">
-					<div class="example__image">
-						<picture><source srcset="img/example-min.webp" type="image/webp"><img src="img/example-min.png?_v=1663255041422" alt="" /></picture>
+					<div data-aos="fade-up" class="example__image">
+						<picture><source srcset="img/example-min.webp" type="image/webp"><img src="img/example-min.png?_v=1663338144627" alt="" /></picture>
 					</div>
-					<h1 class="example__title title">How much you can earn</h1>
-					<p class="example__subtitle subtitle">
+					<h1 data-aos="fade-up" data-aos-delay="2500" data-aos-duration="1500" class="example__title title">
+						How much you can earn
+					</h1>
+					<p data-aos="fade-up" class="example__subtitle subtitle">
 						Let's look at a real example. Marcel managed to bring 40 users to
 						the CPA system. During the entire time of activity, they performed
 						the following actions:
 					</p>
-					<div class="example__table table-example">
+					<div data-aos="fade-right" class="example__table table-example">
 						<div class="table-example__titles">
 							<p class="table-example__title-operation">Operation</p>
 							<p class="table-example__title">Amount,USD</p>
@@ -486,7 +535,7 @@
 						</ul>
 					</div>
 					<div class="example__bottom">
-						<div class="example__total-income total-income">
+						<div data-aos="fade-up" class="example__total-income total-income">
 							<h3 class="total-income__title">Marcel's Total income</h3>
 							<ul class="total-income__list">
 								<li class="total-income__item">
@@ -510,11 +559,11 @@
 			</section>
 			<section class="page__recalls recalls">
 				<div class="recalls__container">
-					<h2 class="recalls__title title">
+					<h2 data-aos="fade-up" class="recalls__title title">
 						Results of CPA system participants
 					</h2>
 					<div class="recalls__items">
-						<div class="recalls__item recalls-item">
+						<div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250" class="recalls__item recalls-item">
 							<div class="recalls-item__top recalls-item-top">
 								<div class="recalls-item-top__svg">
 									<svg width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -530,7 +579,7 @@
 							</div>
 							<p class="recalls-item__text">Robert</p>
 						</div>
-						<div class="recalls__item recalls-item">
+						<div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" class="recalls__item recalls-item">
 							<div class="recalls-item__top recalls-item-top">
 								<div class="recalls-item-top__svg">
 									<svg width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -545,7 +594,7 @@
 							</div>
 							<p class="recalls-item__text">Leon</p>
 						</div>
-						<div class="recalls__item recalls-item">
+						<div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="750" class="recalls__item recalls-item">
 							<div class="recalls-item__top recalls-item-top">
 								<div class="recalls-item-top__svg">
 									<svg width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -562,19 +611,19 @@
 						</div>
 					</div>
 					<div class="recalls__button-block button-block">
-						<a class="recalls__button button button_pink button_mov" href="#">
+						<a data-aos="fade-up" class="recalls__button button button_pink button_mov" href="#">
 							<span>I want the same!</span>
 						</a>
 					</div>
 				</div>
 			</section>
-			<section class="page__wallet-income income-wallet">
+			<section data-aos="fade-up" class="page__wallet-income income-wallet">
 				<div class="income-wallet__container">
 					<div class="income-wallet__content">
 						<div class="income-wallet__body">
 							<div class="income-wallet__wrapper">
 								<div class="income-wallet__image">
-									<img src="img/wallet-min.svg?_v=1663255041422" alt="" />
+									<img src="img/wallet-min.svg?_v=1663338144627" alt="" />
 								</div>
 								<h2 class="income-wallet__title title">
 									Calculate your income in OWNR WALLET
@@ -623,15 +672,17 @@
 			</section>
 			<section class="page__faq faq">
 				<div class="faq__container">
-					<h2 class="faq__title title">Frequently asked questions</h2>
-					<div class="faq__items">
-						<div class="faq__item faq-item faq-item--active">
-							<div class="faq-item__top">
-								<p class="faq-item__top-text" data-aos="fade-right">
+					<h2 data-aos="fade-up" class="faq__title title">
+						Frequently asked questions
+					</h2>
+					<div data-spollers class="faq__items">
+						<div data-aos="fade-right" class="faq__item faq-item faq-item--active">
+							<div class="faq-item__top" data-spoller>
+								<p class="faq-item__top-text">
 									Who can become our Affiliate Partner?
 								</p>
 							</div>
-							<div class="faq-item__text" data-aos="fade-right">
+							<div class="faq-item__text">
 								<p>You can become our affiliate partner if you are:</p>
 								<ul class="faq-item__list-circle">
 									<li>
@@ -649,48 +700,48 @@
 								</ul>
 							</div>
 						</div>
-						<div class="faq__item faq-item faq-item--active">
-							<div class="faq-item__top">
-								<p class="faq-item__top-text" data-aos="fade-right">
+						<div data-aos="fade-right" class="faq__item faq-item faq-item--active">
+							<div data-spoller class="faq-item__top">
+								<p class="faq-item__top-text">
 									Who can become our Referral Partner?
 								</p>
 							</div>
-							<div class="faq-item__text" data-aos="fade-right">
+							<div class="faq-item__text">
 								Each partner can invite referrals and earn a percentage from
 								their income.
 							</div>
 						</div>
-						<div class="faq__item faq-item faq-item--active">
-							<div class="faq-item__top">
-								<p class="faq-item__top-text" data-aos="fade-right">
+						<div data-aos="fade-right" class="faq__item faq-item faq-item--active">
+							<div data-spoller class="faq-item__top">
+								<p class="faq-item__top-text">
 									When does a partner receive a reward?
 								</p>
 							</div>
-							<div class="faq-item__text" data-aos="fade-right">
+							<div class="faq-item__text">
 								Any paid conversions of users attracted by the partner are
 								displayed in the personal account and credited to the balance.
 							</div>
 						</div>
-						<div class="faq__item faq-item faq-item--active">
-							<div class="faq-item__top">
-								<p class="faq-item__top-text" data-aos="fade-right">
+						<div data-aos="fade-right" class="faq__item faq-item faq-item--active">
+							<div data-spoller class="faq-item__top">
+								<p class="faq-item__top-text">
 									When and how are payments made to partners?
 								</p>
 							</div>
-							<div class="faq-item__text" data-aos="fade-right">
+							<div class="faq-item__text">
 								Payments are made by the financial department on a monthly
 								basis in automatic mode to all partners who have specified
 								their bank details. Early payouts are also available from $100
 								upon request.
 							</div>
 						</div>
-						<div class="faq__item faq-item faq-item--active">
-							<div class="faq-item__top">
-								<p class="faq-item__top-text" data-aos="fade-right">
+						<div data-aos="fade-right" class="faq__item faq-item faq-item--active">
+							<div data-spoller class="faq-item__top">
+								<p class="faq-item__top-text">
 									In which countries CAN OWNR be advertised?
 								</p>
 							</div>
-							<div class="faq-item__text" data-aos="fade-right">
+							<div class="faq-item__text">
 								<p>
 									Different services in the OWNR Wallet ecosystem are
 									available for different countries. You also need to take
@@ -721,13 +772,13 @@
 								</ol>
 							</div>
 						</div>
-						<div class="faq__item faq-item faq-item--active">
-							<div class="faq-item__top">
-								<p class="faq-item__top-text" data-aos="fade-right">
+						<div data-aos="fade-right" class="faq__item faq-item faq-item--active">
+							<div data-spoller class="faq-item__top">
+								<p class="faq-item__top-text">
 									Where CAN NOT OWNR be advertised?
 								</p>
 							</div>
-							<div class="faq-item__text" data-aos="fade-right">
+							<div class="faq-item__text">
 								<p>You can become our affiliate partner if you are:</p>
 								<ul class="faq-item__list-circle">
 									<li>
@@ -746,50 +797,50 @@
 								</ul>
 							</div>
 						</div>
-						<div class="faq__item faq-item faq-item--active">
-							<div class="faq-item__top">
-								<p class="faq-item__top-text" data-aos="fade-right">
+						<div data-aos="fade-right" class="faq__item faq-item faq-item--active">
+							<div class="faq-item__top" data-spoller>
+								<p class="faq-item__top-text">
 									What materials can be used to advertise OWNR without OWNR
 									approval?
 								</p>
 							</div>
-							<div class="faq-item__text" data-aos="fade-right">
+							<div class="faq-item__text">
 								To advertise OWNR, you can use any promotional materials
 								attached to the offer in your personal account.
 							</div>
 						</div>
-						<div class="faq__item faq-item faq-item--active">
-							<div class="faq-item__top">
-								<p class="faq-item__top-text" data-aos="fade-right">
+						<div data-aos="fade-right" class="faq__item faq-item faq-item--active">
+							<div class="faq-item__top" data-spoller>
+								<p class="faq-item__top-text">
 									What materials can be used to advertise OWNR with OWNR
 									approval?
 								</p>
 							</div>
-							<div class="faq-item__text" data-aos="fade-right">
+							<div class="faq-item__text">
 								Before starting an advertising campaign, you need to approve
 								the promotional materials and resources that you are going to
 								use with your personal manager. After their approval, you can
 								start to get traffic.
 							</div>
 						</div>
-						<div class="faq__item faq-item faq-item--active">
-							<div class="faq-item__top">
-								<p class="faq-item__top-text" data-aos="fade-right">
+						<div data-aos="fade-right" class="faq__item faq-item faq-item--active">
+							<div class="faq-item__top" data-spoller>
+								<p class="faq-item__top-text">
 									Where can I get a tracking link?
 								</p>
 							</div>
-							<div class="faq-item__text" data-aos="fade-right">
+							<div class="faq-item__text">
 								You can get a working link in your personal account in the
 								offer you are interested in.
 							</div>
 						</div>
-						<div class="faq__item faq-item faq-item--active">
-							<div class="faq-item__top">
-								<p class="faq-item__top-text" data-aos="fade-right">
+						<div data-aos="fade-right" class="faq__item faq-item faq-item--active">
+							<div class="faq-item__top" data-spoller>
+								<p class="faq-item__top-text">
 									How to use a link to count conversion actions?
 								</p>
 							</div>
-							<div class="faq-item__text" data-aos="fade-right">
+							<div class="faq-item__text">
 								The link received in the account with an active offer is
 								provided with a unique click_id, which connects the referred
 								user with a specific Partner. You can't make changes to this
@@ -801,13 +852,13 @@
 								correctly with the original link.
 							</div>
 						</div>
-						<div class="faq__item faq-item faq-item--active">
-							<div class="faq-item__top">
-								<p class="faq-item__top-text" data-aos="fade-right">
+						<div data-aos="fade-right" class="faq__item faq-item faq-item--active">
+							<div class="faq-item__top" data-spoller>
+								<p class="faq-item__top-text">
 									Where the resulats can be checked?
 								</p>
 							</div>
-							<div class="faq-item__text" data-aos="fade-right">
+							<div class="faq-item__text">
 								Statistics on your traffic will be available in your personal
 								account in the Statistics/Daily section. To see a list of
 								conversions made by users, go to the Statistics/Conversions
@@ -815,13 +866,13 @@
 								and devices are also available.
 							</div>
 						</div>
-						<div class="faq__item faq-item faq-item--active">
-							<div class="faq-item__top">
-								<p class="faq-item__top-text" data-aos="fade-right">
+						<div data-aos="fade-right" class="faq__item faq-item faq-item--active">
+							<div class="faq-item__top" data-spoller>
+								<p class="faq-item__top-text">
 									Which platforms count conversion actions made by users?
 								</p>
 							</div>
-							<div class="faq-item__text" data-aos="fade-right">
+							<div class="faq-item__text">
 								<p>For now, the key conversion actions are tracked:</p>
 								<ul class="faq-item__list-circle">
 									<li>
@@ -851,14 +902,14 @@
 								</p>
 							</div>
 						</div>
-						<div class="faq__item faq-item faq-item--active">
-							<div class="faq-item__top">
-								<p class="faq-item__top-text" data-aos="fade-right">
+						<div data-aos="fade-right" class="faq__item faq-item faq-item--active">
+							<div class="faq-item__top" data-spoller>
+								<p class="faq-item__top-text">
 									What does an user need to do in order for conversion events
 									to start counting for him?
 								</p>
 							</div>
-							<div class="faq-item__text" data-aos="fade-right">
+							<div class="faq-item__text">
 								<p>
 									To start counting conversion actions, users you referred
 									need to register an account in OWNR Wallet and install a PC
@@ -898,44 +949,46 @@
 				<div class="platfroms__container">
 					<div class="platfroms__content">
 						<div class="platfroms__logo">
-							<img src="img/platforms/logo-min.svg?_v=1663255041422" alt="" />
+							<img src="img/platforms/logo-min.svg?_v=1663338144627" alt="" />
 						</div>
-						<h2 class="platfroms__title">Supported platfroms</h2>
-						<div class="platfroms__items">
+						<h2 data-aos="fade-right" class="platfroms__title">
+							Supported platfroms
+						</h2>
+						<div data-aos="fade-right" class="platfroms__items">
 							<div class="platfroms__item">
-								<img src="img/platforms/01-min.svg?_v=1663255041422" alt="" />
+								<img src="img/platforms/01-min.svg?_v=1663338144627" alt="" />
 							</div>
 
 							<div class="platfroms__item">
-								<img src="img/platforms/02-min.svg?_v=1663255041422" alt="" />
+								<img src="img/platforms/02-min.svg?_v=1663338144627" alt="" />
 							</div>
 
 							<div class="platfroms__item">
-								<img src="img/platforms/03-min.svg?_v=1663255041422" alt="" />
+								<img src="img/platforms/03-min.svg?_v=1663338144627" alt="" />
 							</div>
 
 							<div class="platfroms__item">
-								<img src="img/platforms/04-min.svg?_v=1663255041422" alt="" />
+								<img src="img/platforms/04-min.svg?_v=1663338144627" alt="" />
 							</div>
 
 							<div class="platfroms__item">
-								<img src="img/platforms/05-min.svg?_v=1663255041422" alt="" />
+								<img src="img/platforms/05-min.svg?_v=1663338144627" alt="" />
 							</div>
 
 							<div class="platfroms__item">
-								<img src="img/platforms/06-min.svg?_v=1663255041422" alt="" />
+								<img src="img/platforms/06-min.svg?_v=1663338144627" alt="" />
 							</div>
 
 							<div class="platfroms__item">
-								<img src="img/platforms/07-min.svg?_v=1663255041422" alt="" />
+								<img src="img/platforms/07-min.svg?_v=1663338144627" alt="" />
 							</div>
 
 							<div class="platfroms__item">
-								<img src="img/platforms/08-min.svg?_v=1663255041422" alt="" />
+								<img src="img/platforms/08-min.svg?_v=1663338144627" alt="" />
 							</div>
 
 							<div class="platfroms__item">
-								<img src="img/platforms/09-min.svg?_v=1663255041422" alt="" />
+								<img src="img/platforms/09-min.svg?_v=1663338144627" alt="" />
 							</div>
 						</div>
 					</div>
@@ -943,12 +996,12 @@
 			</section>
 			<section class="page__join join">
 				<a href="#" class="join__logo">
-					<img src="img/logo.svg?_v=1663255041422" alt="logo" />
+					<img src="img/logo.svg?_v=1663338144627" alt="logo" />
 				</a>
 
 				<div class="join__container">
 					<div class="join__content">
-						<h2 class="join__text">
+						<h2 data-aos="fade-up" class="join__text">
 							OWNR WALLET — we are the first in the market to pay partners up
 							to
 							<span class="join__number">38%</span> of the company's
@@ -957,7 +1010,7 @@
 							effort.
 						</h2>
 						<div class="join__button-block button-block">
-							<a href="" class="join__button button button_pink button_mov"><span>Join</span></a>
+							<a data-aos="fade-up" href="" class="join__button button button_pink button_mov"><span>Join</span></a>
 						</div>
 					</div>
 				</div>
@@ -968,7 +1021,15 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20220915161721"></script>
+	<script src="js/app.min.js?_v=20220916152224"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			disable: "mobile",
+		});
+	</script>
+	;
+
 </body>
 
 </html>
